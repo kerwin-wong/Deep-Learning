@@ -1,0 +1,11 @@
+git init
+其文件夹下会建立一个.git文件夹
+
+git remote add origin git@github.com:你的账户/你的仓库名称.git
+推荐先把两边同步下
+
+git pull --rebase origin master
+git pull origin master
+git add .
+git commit -m 'first_commit'
+git push origin master
